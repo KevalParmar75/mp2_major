@@ -34,10 +34,10 @@ AdiYogi Wellness aims to help users improve their physical and mental health by 
 
 **Backend:**
 - Python
-- FastAPI / Django / Flask
+- Django
 
 **Database:**
-- MongoDB or SQL
+- MongoDB and SQL
 
 **Other Tools:**
 - Git
