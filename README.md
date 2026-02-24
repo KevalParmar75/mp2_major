@@ -1,106 +1,144 @@
-# Adiyogi Wellness
+AdiYogi Wellness
 
-✨ **AdiYogi Wellness** is a health and wellness platform focused on yoga, meditation, and overall well-being.  
-The project includes both frontend and backend components to provide a complete wellness experience.
+✨ AdiYogi Wellness is an AI-powered full-stack wellness platform built with React (TypeScript) and Django.
+It integrates authentication, multilingual AI chat, avatar/audio interaction, and weekly wellness insights into a scalable architecture.
 
----
+🧠 Project Overview
 
-## 🧠 Project Overview
+AdiYogi Wellness is designed as an intelligent wellness assistant platform that combines:
 
-AdiYogi Wellness aims to help users improve their physical and mental health by providing:
-- Yoga sessions 🧘‍♀️
-- Meditation exercises 🧘‍♂️
-- User registration and management
-- Tracking wellness progress
-- API endpoints for frontend integration
+Secure authentication system
 
----
+AI-powered multilingual chat
 
-## 🧩 Features
+Avatar-based audio interaction
 
-- User authentication (signup/login)
-- CRUD operations for wellness data
-- Frontend ↔ Backend integration
-- Responsive design
-- Tracking yoga and meditation progress
+Weekly wellness insights generation
 
----
+Hybrid database architecture (MongoDB + SQL)
 
-## 🛠️ Technologies Used
+Full frontend–backend integration
 
-**Frontend:**
-- TypeScript
-- React
+This project demonstrates real-world AI integration inside a production-style full-stack system.
 
-**Backend:**
-- Python
-- Django
+🧩 Core Features (Actual Implemented Features)
+🔐 Authentication & User Management
 
-**Database:**
-- MongoDB and SQL
+User Signup & Login
 
-**Other Tools:**
-- Git
-- Docker (optional)
+Session/JWT-based authentication
 
----
+User profile management
 
-## 📦 Prerequisites
+Django Admin integration
 
-Before running the project, make sure you have:
-Node.js
+Hybrid database setup (SQLite + MongoDB)
+
+🤖 AI-Powered Chat System
+
+Multilingual AI chat support (English, Hindi, etc.)
+
+Context-aware conversational flow
+
+Backend AI integration (LLM-based responses)
+
+Persistent conversation handling
+
+🗣️ Avatar & Audio Chat
+
+Voice-based interaction support
+
+Text-to-Speech (TTS) integration
+
+Avatar-based conversational interface
+
+Real-time frontend ↔ backend voice processing
+
+📊 Weekly Wellness Insights
+
+AI-generated weekly user insights
+
+Behavioral tracking analysis
+
+Personalized recommendations
+
+Stored and retrievable user progress summaries
+
+🔄 Backend & API Architecture
+
+RESTful API endpoints
+
+MongoEngine integration for NoSQL data
+
+Django ORM for authentication models
+
+CORS handling for frontend communication
+
+Modular backend structure
+
+Environment-based configuration setup
+
+🛠️ Tech Stack
+Frontend
+
+React
+
+TypeScript
+
+Axios
+
+Tailwind CSS
+
+Web Speech API (Audio interaction)
+
+Backend
+
 Python
-MongoDB / PostgreSQL
 
+Django
 
----
+Django REST Framework
 
-## 🚀 Getting Started
+MongoEngine
 
-### 1️⃣ Clone the repository
-git clone https://github.com/KevalParmar75/mp2_major.git
+LLM API integration
 
-cd adiyogi-wellness
+Database
 
+MongoDB (Chat logs, insights, user data)
 
----
+SQLite (Authentication & admin models)
 
-### 2️⃣ Run the Backend
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+Dev Tools
 
+Git
 
----
+Postman
 
-### 3️⃣ Run the Frontend
-cd frontend
-npm install
-npm start
+Docker (optional)
 
+PyCharm
 
----
+🏗️ System Architecture
 
-## 🧑‍💻 Contributing
+React Frontend
+⬇ (Axios API calls)
+Django REST Backend
+⬇
+LLM Integration + Voice Processing
+⬇
+MongoDB (Chat, Insights) + SQLite (Auth)
 
-1. Fork the repository
-2. Create a new branch  
-   `git checkout -b feature/your-feature`
-3. Commit your changes
-4. Push to your branch  
-   `git push origin feature/your-feature`
-5. Open a Pull Request
+💡 What Makes This Project Strong
 
----
+AI + Full-Stack Integration
 
-## 📬 Contact
+Multilingual conversational AI system
 
-For questions or suggestions, reach out via GitHub.
+Voice-enabled assistant architecture
 
+Hybrid database design
 
+Production-like modular backend
 
-
-
-
-
-
+Real-time frontend ↔ backend communication
