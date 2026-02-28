@@ -1,144 +1,137 @@
-AdiYogi Wellness
+<div align="center">
+ 
+  <h2 align="center">✨ AdiYogi Wellness</h2>
 
-✨ AdiYogi Wellness is an AI-powered full-stack wellness platform built with React (TypeScript) and Django.
-It integrates authentication, multilingual AI chat, avatar/audio interaction, and weekly wellness insights into a scalable architecture.
+  <p align="center">
+    <strong>An intelligent, AI-powered full-stack wellness platform.</strong>
+    <br />
+    <br />
+    <a href="https://github.com/KevalParmar75/adiyogi-wellness">View Demo</a>
+    ·
+    <a href="https://github.com/KevalParmar75/adiyogi-wellness/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/KevalParmar75/adiyogi-wellness/issues">Request Feature</a>
+  </p>
+</div>
 
-🧠 Project Overview
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=84cc16" alt="Django">
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+</div>
 
-AdiYogi Wellness is designed as an intelligent wellness assistant platform that combines:
+---
 
-Secure authentication system
+## 🧠 Project Overview
 
-AI-powered multilingual chat
+**AdiYogi Wellness** is an intelligent, scalable wellness assistant platform that bridges the gap between holistic health and advanced AI. Built with a robust React (TypeScript) frontend and a Django backend, this project demonstrates real-world AI integration inside a production-style full-stack system.
 
-Avatar-based audio interaction
+By combining a hybrid database architecture with an interactive avatar-based conversational interface, AdiYogi Wellness delivers personalized, voice-enabled, and context-aware insights to users.
 
-Weekly wellness insights generation
+---
 
-Hybrid database architecture (MongoDB + SQL)
+## 🧩 Core Features
 
-Full frontend–backend integration
+### 🔐 Authentication & User Management
+* **Secure Access:** Session/JWT-based authentication for seamless user login and signup.
+* **Profile Management:** Comprehensive user profile handling.
+* **Hybrid Data Storage:** Utilizes SQLite for structured authentication/admin models alongside MongoDB for flexible data.
+* **Admin Control:** Full integration with the Django Admin panel.
 
-This project demonstrates real-world AI integration inside a production-style full-stack system.
+### 🤖 AI-Powered Chat System
+* **Multilingual Support:** Context-aware conversational flow supporting English, Hindi, Gujarati, and more.
+* **Intelligent Backend:** Deep LLM integration for dynamic, accurate, and empathetic wellness responses.
+* **Persistent Memory:** Robust handling of conversation history for continuous user context.
 
-🧩 Core Features (Actual Implemented Features)
-🔐 Authentication & User Management
+### 🗣️ Avatar & Audio Chat
+* **Voice Interaction:** Full voice-based interaction support utilizing the Web Speech API.
+* **TTS Integration:** Real-time Text-to-Speech processing for lifelike conversations.
+* **Visual Interface:** Avatar-based UI for an engaging frontend experience.
 
-User Signup & Login
+### 📊 Weekly Wellness Insights
+* **AI Generation:** Automatically compiles and generates weekly wellness insights tailored to the user.
+* **Behavioral Tracking:** Analyzes user interactions and progress over time.
+* **Actionable Recommendations:** Delivers personalized goals and retrievable progress summaries.
 
-Session/JWT-based authentication
+---
 
-User profile management
+## 🛠️ Tech Stack
 
-Django Admin integration
+| Frontend | Backend | Database & Tools |
+| :--- | :--- | :--- |
+| React | Python | MongoDB (Chat, Insights) |
+| TypeScript | Django | SQLite (Auth, Admin) |
+| Tailwind CSS | Django REST Framework | Git & GitHub |
+| Axios | MongoEngine | Postman |
+| Web Speech API | LLM API Integration | Docker (Optional) |
 
-Hybrid database setup (SQLite + MongoDB)
+---
 
-🤖 AI-Powered Chat System
+## 🏗️ System Architecture
 
-Multilingual AI chat support (English, Hindi, etc.)
+AdiYogi Wellness employs a modular, decoupled architecture ensuring real-time communication and scalable data handling.
 
-Context-aware conversational flow
 
-Backend AI integration (LLM-based responses)
 
-Persistent conversation handling
+1. **Client Layer (React/TS):** Captures text and voice inputs, rendering the avatar and UI.
+2. **Communication (Axios):** RESTful API calls and CORS-handled requests pass data to the backend.
+3. **Server Layer (Django):** Processes requests, handles authentication (SQLite), and communicates with the AI Engine.
+4. **AI & Voice Processing:** Executes LLM logic and prepares text/audio responses.
+5. **Data Layer (MongoDB):** Stores unstructured chat logs, behavioral tracking data, and weekly insights.
 
-🗣️ Avatar & Audio Chat
+---
 
-Voice-based interaction support
+## 🚀 Getting Started
 
-Text-to-Speech (TTS) integration
+Follow these steps to set up the project locally.
 
-Avatar-based conversational interface
+### Prerequisites
+* Node.js & npm
+* Python 3.9+
+* MongoDB (Local or Atlas)
 
-Real-time frontend ↔ backend voice processing
+### 1. Backend Setup
+```bash
+# Navigate to backend directory
+cd backend
 
-📊 Weekly Wellness Insights
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-AI-generated weekly user insights
+# Install dependencies
+pip install -r requirements.txt
 
-Behavioral tracking analysis
+# Run migrations
+python manage.py migrate
 
-Personalized recommendations
+# Start the Django server
+python manage.py runserver
 
-Stored and retrievable user progress summaries
+#frontend
+# Navigate to frontend directory
+cd frontend
 
-🔄 Backend & API Architecture
+# Install dependencies
+npm install
 
-RESTful API endpoints
+# Start the development server
+npm run dev
+```
+---
+## **💡 Why This Project Stands Out**
+  *AI + Full-Stack Integration: Moving beyond basic CRUD apps by embedding dynamic AI reasoning into the core loop.
 
-MongoEngine integration for NoSQL data
+  *Voice-Enabled Architecture: Real-time frontend ↔ backend voice processing creates a highly accessible user experience.
 
-Django ORM for authentication models
+  *Hybrid Database Design: Demonstrates architectural maturity by using the right database paradigm for the right data (SQL for Auth, NoSQL for AI logs).
 
-CORS handling for frontend communication
+  *Production-Ready Modularity: Environment-based configurations and a clean separation of concerns.
 
-Modular backend structure
+**Project Link:** https://github.com/KevalParmar75/adiyogi-wellness
 
-Environment-based configuration setup
-
-🛠️ Tech Stack
-Frontend
-
-React
-
-TypeScript
-
-Axios
-
-Tailwind CSS
-
-Web Speech API (Audio interaction)
-
-Backend
-
-Python
-
-Django
-
-Django REST Framework
-
-MongoEngine
-
-LLM API integration
-
-Database
-
-MongoDB (Chat logs, insights, user data)
-
-SQLite (Authentication & admin models)
-
-Dev Tools
-
-Git
-
-Postman
-
-Docker (optional)
-
-PyCharm
-
-🏗️ System Architecture
-
-React Frontend
-⬇ (Axios API calls)
-Django REST Backend
-⬇
-LLM Integration + Voice Processing
-⬇
-MongoDB (Chat, Insights) + SQLite (Auth)
-
-💡 What Makes This Project Strong
-
-AI + Full-Stack Integration
-
-Multilingual conversational AI system
-
-Voice-enabled assistant architecture
-
-Hybrid database design
-
-Production-like modular backend
-
-Real-time frontend ↔ backend communication
+<div align="center">
+<i>AdiYogi Wellness. Built by Keval & Team❤️.</i>
+</div>
+  
