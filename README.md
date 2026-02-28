@@ -129,7 +129,7 @@ npm run dev
 
   *Production-Ready Modularity: Environment-based configurations and a clean separation of concerns.
 
-**Project Link:** https://github.com/KevalParmar75/adiyogi-wellness
+**Project Link:** https://github.com/KevalParmar75/mp2_major
 
 <div align="center">
 <i>AdiYogi Wellness. Built by Keval & Team❤️.</i>
