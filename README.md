@@ -4,13 +4,6 @@
 
   <p align="center">
     <strong>An intelligent, AI-powered full-stack wellness platform.</strong>
-    <br />
-    <br />
-    <a href="https://github.com/KevalParmar75/adiyogi-wellness">View Demo</a>
-    ·
-    <a href="https://github.com/KevalParmar75/adiyogi-wellness/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/KevalParmar75/adiyogi-wellness/issues">Request Feature</a>
   </p>
 </div>
 
