@@ -113,14 +113,14 @@ npm install
 npm run dev
 ```
 ---
-## **💡 Why This Project Stands Out**
-  *AI + Full-Stack Integration: Moving beyond basic CRUD apps by embedding dynamic AI reasoning into the core loop.
+### **💡 Why This Project Stands Out**
+*AI + Full-Stack Integration: Moving beyond basic CRUD apps by embedding dynamic AI reasoning into the core loop.
 
-  *Voice-Enabled Architecture: Real-time frontend ↔ backend voice processing creates a highly accessible user experience.
+*Voice-Enabled Architecture: Real-time frontend ↔ backend voice processing creates a highly accessible user experience.
 
-  *Hybrid Database Design: Demonstrates architectural maturity by using the right database paradigm for the right data (SQL for Auth, NoSQL for AI logs).
+*Hybrid Database Design: Demonstrates architectural maturity by using the right database paradigm for the right data (SQL for Auth, NoSQL for AI logs).
 
-  *Production-Ready Modularity: Environment-based configurations and a clean separation of concerns.
+*Production-Ready Modularity: Environment-based configurations and a clean separation of concerns.
 
 **Project Link:** https://github.com/KevalParmar75/mp2_major
 
